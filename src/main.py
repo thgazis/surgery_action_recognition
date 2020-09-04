@@ -1,3 +1,2 @@
 from models import train_model
-
-print("It works!!!!")
+import cv2
