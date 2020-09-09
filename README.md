@@ -12,3 +12,14 @@ docker build - < Dockerfile
 After the image is built run:
 
 docker run -it --gpus all  --mount type=bind,source="$(pwd)"/projects/surgery_action_recognition/,target=/app video-deep-learning:latest
+
+
+### TO DO's ###
+
+1) Fine-tune a conv3d model for next-frame prediction
+
+2) Build a classifier using the fine-tuned model
+
+3) Build a classifier using the a not fine-tuned model
+
+4) Compare results
